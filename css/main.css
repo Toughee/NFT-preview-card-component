@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+main {
+  background-color: hsl(216, 50%, 16%);
+  text-align: center;
+  border-radius: 5%;
+  padding: 0.7rem 0.5rem 5rem 0.5rem;
+  height: 20rem;
+  width: 14rem;
+  display: block;
+  margin-top: 10rem;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0px 50px 50px rgba(14, 14, 14, 0.966);
+}
+
+img {
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 5%;
+}
+
+h1,
+p,
+.attribution,
+hr {
+  font-family: "Outfit", sans-serif;
+  text-align: left;
+}
+
+h1 {
+  font-size: 1rem;
+  /* padding: 0rem 1.5rem 0rem 1.5rem; */
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.attribution,
+p,
+h2 {
+  font-size: 0.7rem;
+
+  font-weight: 400;
+  color: #586b85;
+}
+
+.nftprice {
+  float: left;
+  color: aquamarine;
+}
+
+.selldate {
+  float: right;
+  color: #586b85;
+}
+
+.nftprice,
+.selldate {
+  padding: 0.5rem;
+  font-weight: 300;
+  font-family: "Outfit", sans-serif;
+}
+
+.icon-styles {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+
+.user-avatar {
+  width: 1.1rem;
+  height: 1.1rem;
+  border: 1px solid #ffffff;
+  border-radius: 5%;
+}
+
+@media screen and (min-width: 810px) {
+  main {
+    margin-top: 20rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  main {
+    margin-top: 10rem;
+  }
+}
